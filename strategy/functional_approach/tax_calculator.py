@@ -1,4 +1,3 @@
-# using functional approach
 from typing import Callable
 
 
