@@ -7,4 +7,3 @@ class ChainOfDiscountCalculator:
     def calculate(budget: Budget) -> int:
         discount = DiscountForMoreThanFiveItems().calculate(budget)
         return discount
-    

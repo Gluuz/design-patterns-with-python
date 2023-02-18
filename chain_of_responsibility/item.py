@@ -7,7 +7,6 @@ class Item:
     def value(self):
         return self.__value
 
-
     @property
     def name(self):
         return self.__name
