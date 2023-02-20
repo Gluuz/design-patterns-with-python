@@ -7,7 +7,8 @@ class Budget:
         total = 0.0
         for item in self.__items:
             total += item.value
-            return total
+
+        return total
 
     @property
     def total_itens(self):
